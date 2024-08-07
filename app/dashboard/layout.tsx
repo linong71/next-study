@@ -1,5 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
  
+// 局部渲染  nextconfig.js 配置 experimental
+export const experimental_ppr = true;
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
